@@ -1,0 +1,65 @@
+body { 
+	margin: 0; 
+	padding: 0; 
+	background: #D8D8D8;
+	}
+canvas { 
+	display: block; 
+	margin: 3em auto; 
+	background: white; 
+	}
+#button, center{
+    height: 0;
+}
+#loader{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 320px;
+}
+#win{
+		position: relative;
+		bottom: 105px;
+	}
+#gameOver{
+		position: relative;
+		bottom: 92px;
+	}
+#gameOver:hover {
+		color: #555555;
+	}
+#play{
+		position: relative;
+		bottom: 125px;
+		text-align: center;
+	}
+#instructions{
+		position: relative;
+		bottom: 200px;
+	}
+#home{
+		position: relative;
+		bottom: 120px;
+		right: 235px;
+	}
+button{
+		font-size: 25px;
+		background-color: transparent;
+		color: black;
+		cursor: pointer;
+		border-style: none;
+		font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+		text-align: center;
+	}
+button:focus{
+		outline:0;
+	}
+	
+button:hover {
+		color: #E6E6E6;
+	}
+			
+			
+	
+			
